@@ -1,0 +1,35 @@
+.logo{
+    text-align: center;
+}
+
+.links{
+
+    font-size: large;
+    padding-left: 40px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+    margin: 0 15px; 
+}
+
+.nav-link:hover{
+    color: orange;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: orange !important;
+}
+
+.navbar-toggler {
+    margin-bottom: 10px; 
+}

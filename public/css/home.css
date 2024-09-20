@@ -1,0 +1,58 @@
+.home-bg{
+    background-image: url('/images/home-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 900px
+}
+
+.home-logo{
+   text-align: center;
+}
+
+.home-logo img{
+    height: 400px;
+    margin-top: 6%;
+}
+
+.carousel-inner img {
+    height: 400px; /* Set your desired height */
+    width: auto;
+   object-fit: contain;
+}
+.home-sect2{
+    text-align: center;
+    padding: 20px;
+}   
+.home-sect2 h2{
+    font-family:"Titillium Web", sans-serif;
+    color: #0222a5;
+    font-weight: bolder;
+    line-height: 1.2;
+}
+.home-sect2 h3{
+    text-align: justify; 
+    max-width: 800px; 
+    margin: 0 auto;
+    color: #0222a5;
+}
+.pg{
+    text-align: justify; 
+    max-width: 1000px; 
+    margin: 0 auto;
+    font-family:"Titillium Web", sans-serif ;
+    font-size: large;
+}
+
+.home-sect3{
+    background-image: url('/images/home-bg2.jpg');
+    background-size: cover;
+    height: 400px;
+}
+@media (max-width: 768px) {
+    .home-sect3 {
+        height: 900px; /* Increase height for mobile */
+    }
+}
+.row{
+    padding: 50px;
+}
